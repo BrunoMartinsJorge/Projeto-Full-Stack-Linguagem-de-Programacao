@@ -4,10 +4,11 @@ import { TarefaModel } from '../../models/tarefa';
 import { forkJoin } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { Footer } from "../footer/footer";
 
 @Component({
   selector: 'app-task-list',
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, Footer],
   templateUrl: './task-list.html',
   styleUrl: './task-list.css'
 })
